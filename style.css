@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin: 2vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color:  #E6E6E6;
+}
+.logo{
+    height: 100px;
+}
+.lecture-name{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 8px;
+}
+li{
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+.lectures{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+}
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    object-fit: contain;
+}
